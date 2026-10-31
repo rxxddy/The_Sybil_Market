@@ -117,7 +117,7 @@ export default function Profile() {
                                 <div className="p-4 md:p-5 space-y-4">
                                     <div className="mb-6">
                                         <label htmlFor="user_fio" className="block mb-2 text-sm font-medium text-white/90">Name</label>
-                                        <input type="text" id="user_fio" className="bg-gray-50 border border-gray-300 text-gray-700 text-sm rounded-lg block w-full p-2.5" placeholder="Иванов Иван Иванович" value={fio} onChange={(e) => setfio(e.target.value)} required />
+                                        <input type="text" id="user_fio" className="bg-gray-50 border border-gray-300 text-gray-700 text-sm rounded-lg block w-full p-2.5" placeholder="John Smith" value={fio} onChange={(e) => setfio(e.target.value)} required />
                                     </div>
 
                                     <div className="grid gap-6 mb-6 md:grid-cols-2">
@@ -133,7 +133,7 @@ export default function Profile() {
 
                                     <div className="mb-6">
                                         <label htmlFor="homeAddress" className="block mb-2 text-sm font-medium text-white/90">Address</label>
-                                        <input type="text" id="homeAddress" className="bg-gray-50 border border-gray-300 text-gray-700 text-sm rounded-lg block w-full p-2.5" placeholder="Адрес доставки" value={homeAddress} onChange={(e) => setHomeAddress(e.target.value)} required />
+                                        <input type="text" id="homeAddress" className="bg-gray-50 border border-gray-300 text-gray-700 text-sm rounded-lg block w-full p-2.5" placeholder="Delivery address" value={homeAddress} onChange={(e) => setHomeAddress(e.target.value)} required />
                                     </div>
 
                                     <div className="mb-6">
@@ -146,7 +146,7 @@ export default function Profile() {
                                             <input id="remember" type="checkbox" className="w-4 h-4 border border-gray-300 rounded bg-gray-50" required />
                                         </div>
                                         <label htmlFor="remember" className="ms-2 text-sm font-medium text-white/90">
-                                            Agree с <a href="https://discord.gg/mTZGgkCQ83" className="text-blue-600 hover:underline">rules and policies</a>
+                                            Agree to <a href="https://discord.gg/mTZGgkCQ83" className="text-blue-600 hover:underline">rules and policies</a>
                                         </label>
                                     </div>
 
